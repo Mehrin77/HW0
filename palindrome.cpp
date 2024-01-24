@@ -29,6 +29,7 @@ std::string normalize(std::string text) {
         if (isalpha(c)) {
         result.push_back(tolower(c));  //conversts it to lower case and adds to result
     }
+}
     return result;
 }
 
